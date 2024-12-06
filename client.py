@@ -5,7 +5,7 @@ import requests, getpass
 
 
 # auth_response = requests.post(endpoint, json={'username':'sitanshu', 'password': password})
-token = 'd6f59d9de9aa2a5aa52983c401aa0453c9f6e813'
+#token = auth_response.get('token')
 
 headers = {
     "Authorization":f"Token {token}"
